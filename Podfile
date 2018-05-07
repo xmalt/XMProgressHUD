@@ -4,6 +4,5 @@ platform :ios, '9.0'
 target 'XMProgressHUD-master' do
   
   pod 'MBProgressHUD'
-  pod 'XMProgressHUD'
 
 end

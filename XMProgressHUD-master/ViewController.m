@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <XMProgressHUD.h>
+//#import <XMProgressHUD.h>
 
 @interface ViewController ()
 
@@ -27,20 +27,20 @@
 }
 
 - (IBAction)btnAction1:(id)sender {
-    [XMProgressHUD showInfoText:@"显示文本"];
+//    [XMProgressHUD showInfoText:@"显示文本"];
 }
 - (IBAction)btnAction2:(id)sender {
-    [XMProgressHUD showSuccessText:@"显示成功"];
+//    [XMProgressHUD showSuccessText:@"显示成功"];
 }
 - (IBAction)btnAction3:(id)sender {
-    [XMProgressHUD showFailureText:@"显示失败"];
+//    [XMProgressHUD showFailureText:@"显示失败"];
 }
 - (IBAction)btnAction4:(id)sender {
 //    [XMProgressHUD showLoadingText:@"显示加载"];
-    [XMProgressHUD showText:@"显示一个文本\n显示一个文本"];
+//    [XMProgressHUD showText:@"显示一个文本\n显示一个文本"];
 }
 - (IBAction)btnAction5:(id)sender {
-    [XMProgressHUD hide];
+//    [XMProgressHUD hide];
 }
 
 @end
