@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "XMProgressHUD"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.platform     = :ios, "7.0"
   s.ios.deployment_target = '7.0'
   s.summary      = "A Simple prompt box."
@@ -19,4 +19,5 @@ Pod::Spec.new do |s|
   s.source_files  = "XMProgressHUD/*.{h,m}","XMProgressHUD/*/*.{h,m}"
   s.resources     = "XMProgressHUD/resource.bundle" #资源图片
   s.requires_arc = true
+  s.dependency "MBProgressHUD", "~> 1.1.0"
 end
