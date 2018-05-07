@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.source_files  = "XMProgressHUD/*.{h,m}","XMProgressHUD/*/*.{h,m}"
   s.resources     = "XMProgressHUD/resource.bundle" #资源图片
   s.requires_arc = true
-  s.dependency "MBProgressHUD", "~> 1.1.0"
+  s.dependency 'MBProgressHUD'
 end

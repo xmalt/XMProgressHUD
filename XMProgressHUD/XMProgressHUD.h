@@ -6,7 +6,11 @@
 //  Copyright © 2018年 xmalt. All rights reserved.
 //
 
+#if __has_include(<MBProgressHUD.h>)
 #import <MBProgressHUD.h>
+#else
+#import "MBProgressHUD.h"
+#endif
 
 /** 请求状态  */
 typedef NS_ENUM(NSInteger, XMProgressHUDStatus) {
