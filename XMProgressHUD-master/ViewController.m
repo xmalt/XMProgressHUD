@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "XMProgressHUD.h"
+#import <XMProgressHUD.h>
 
 @interface ViewController ()
 

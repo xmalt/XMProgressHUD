@@ -14,8 +14,6 @@
 		F26AE91020A075BB00BF1A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26AE90F20A075BB00BF1A0A /* Assets.xcassets */; };
 		F26AE91320A075BB00BF1A0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26AE91120A075BB00BF1A0A /* LaunchScreen.storyboard */; };
 		F26AE91620A075BB00BF1A0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F26AE91520A075BB00BF1A0A /* main.m */; };
-		F26AE92020A0760700BF1A0A /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F26AE91D20A0760700BF1A0A /* resource.bundle */; };
-		F26AE92420A0762300BF1A0A /* XMProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F26AE92320A0762300BF1A0A /* XMProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +30,6 @@
 		F26AE91220A075BB00BF1A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F26AE91420A075BB00BF1A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F26AE91520A075BB00BF1A0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F26AE91D20A0760700BF1A0A /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
-		F26AE92220A0762300BF1A0A /* XMProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMProgressHUD.h; sourceTree = "<group>"; };
-		F26AE92320A0762300BF1A0A /* XMProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +82,6 @@
 		F26AE90520A075B900BF1A0A /* XMProgressHUD-master */ = {
 			isa = PBXGroup;
 			children = (
-				F26AE91C20A075F000BF1A0A /* XMProgressHUD */,
 				F26AE90620A075B900BF1A0A /* AppDelegate.h */,
 				F26AE90720A075B900BF1A0A /* AppDelegate.m */,
 				F26AE90920A075B900BF1A0A /* ViewController.h */,
@@ -100,16 +94,6 @@
 			);
 			path = "XMProgressHUD-master";
 			sourceTree = "<group>";
-		};
-		F26AE91C20A075F000BF1A0A /* XMProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				F26AE92220A0762300BF1A0A /* XMProgressHUD.h */,
-				F26AE92320A0762300BF1A0A /* XMProgressHUD.m */,
-				F26AE91D20A0760700BF1A0A /* resource.bundle */,
-			);
-			path = XMProgressHUD;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -173,7 +157,6 @@
 				F26AE91320A075BB00BF1A0A /* LaunchScreen.storyboard in Resources */,
 				F26AE91020A075BB00BF1A0A /* Assets.xcassets in Resources */,
 				F26AE90E20A075B900BF1A0A /* Main.storyboard in Resources */,
-				F26AE92020A0760700BF1A0A /* resource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +207,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F26AE90B20A075B900BF1A0A /* ViewController.m in Sources */,
-				F26AE92420A0762300BF1A0A /* XMProgressHUD.m in Sources */,
 				F26AE91620A075BB00BF1A0A /* main.m in Sources */,
 				F26AE90820A075B900BF1A0A /* AppDelegate.m in Sources */,
 			);
