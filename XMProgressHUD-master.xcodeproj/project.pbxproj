@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63140BE274530C094D425219 /* libPods-XMProgressHUD-master.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CDD227E70338D64029F12A4 /* libPods-XMProgressHUD-master.a */; };
 		F26AE90820A075B900BF1A0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F26AE90720A075B900BF1A0A /* AppDelegate.m */; };
 		F26AE90B20A075B900BF1A0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26AE90A20A075B900BF1A0A /* ViewController.m */; };
 		F26AE90E20A075B900BF1A0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26AE90C20A075B900BF1A0A /* Main.storyboard */; };
@@ -14,11 +15,13 @@
 		F26AE91320A075BB00BF1A0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26AE91120A075BB00BF1A0A /* LaunchScreen.storyboard */; };
 		F26AE91620A075BB00BF1A0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F26AE91520A075BB00BF1A0A /* main.m */; };
 		F26AE92020A0760700BF1A0A /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F26AE91D20A0760700BF1A0A /* resource.bundle */; };
-		F26AE92120A0760700BF1A0A /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F26AE91F20A0760700BF1A0A /* MBProgressHUD.m */; };
 		F26AE92420A0762300BF1A0A /* XMProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F26AE92320A0762300BF1A0A /* XMProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		347FA3CEE4B3A407B060379F /* Pods-XMProgressHUD-master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMProgressHUD-master.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMProgressHUD-master/Pods-XMProgressHUD-master.release.xcconfig"; sourceTree = "<group>"; };
+		5CDD227E70338D64029F12A4 /* libPods-XMProgressHUD-master.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XMProgressHUD-master.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC2BCC62E8B227944A62E28 /* Pods-XMProgressHUD-master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMProgressHUD-master.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMProgressHUD-master/Pods-XMProgressHUD-master.debug.xcconfig"; sourceTree = "<group>"; };
 		F26AE90320A075B900BF1A0A /* XMProgressHUD-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XMProgressHUD-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26AE90620A075B900BF1A0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F26AE90720A075B900BF1A0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,8 +33,6 @@
 		F26AE91420A075BB00BF1A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F26AE91520A075BB00BF1A0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F26AE91D20A0760700BF1A0A /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
-		F26AE91E20A0760700BF1A0A /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		F26AE91F20A0760700BF1A0A /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		F26AE92220A0762300BF1A0A /* XMProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMProgressHUD.h; sourceTree = "<group>"; };
 		F26AE92320A0762300BF1A0A /* XMProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,17 +42,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63140BE274530C094D425219 /* libPods-XMProgressHUD-master.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6088D5ADCB24A95451EEBB6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADC2BCC62E8B227944A62E28 /* Pods-XMProgressHUD-master.debug.xcconfig */,
+				347FA3CEE4B3A407B060379F /* Pods-XMProgressHUD-master.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFA77987C8C52F46A0D28190 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CDD227E70338D64029F12A4 /* libPods-XMProgressHUD-master.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F26AE8FA20A075B900BF1A0A = {
 			isa = PBXGroup;
 			children = (
 				F26AE90520A075B900BF1A0A /* XMProgressHUD-master */,
 				F26AE90420A075B900BF1A0A /* Products */,
+				6088D5ADCB24A95451EEBB6E /* Pods */,
+				AFA77987C8C52F46A0D28190 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,8 +106,6 @@
 			children = (
 				F26AE92220A0762300BF1A0A /* XMProgressHUD.h */,
 				F26AE92320A0762300BF1A0A /* XMProgressHUD.m */,
-				F26AE91E20A0760700BF1A0A /* MBProgressHUD.h */,
-				F26AE91F20A0760700BF1A0A /* MBProgressHUD.m */,
 				F26AE91D20A0760700BF1A0A /* resource.bundle */,
 			);
 			path = XMProgressHUD;
@@ -99,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F26AE91920A075BB00BF1A0A /* Build configuration list for PBXNativeTarget "XMProgressHUD-master" */;
 			buildPhases = (
+				75A96E78DEA058D6452C56F4 /* [CP] Check Pods Manifest.lock */,
 				F26AE8FF20A075B900BF1A0A /* Sources */,
 				F26AE90020A075B900BF1A0A /* Frameworks */,
 				F26AE90120A075B900BF1A0A /* Resources */,
+				CD875D0D7F4C6A66716E6E03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,6 +179,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		75A96E78DEA058D6452C56F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XMProgressHUD-master-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD875D0D7F4C6A66716E6E03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XMProgressHUD-master/Pods-XMProgressHUD-master-resources.sh",
+				"${PODS_ROOT}/XMProgressHUD/XMProgressHUD/resource.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/resource.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMProgressHUD-master/Pods-XMProgressHUD-master-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F26AE8FF20A075B900BF1A0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -167,7 +227,6 @@
 				F26AE92420A0762300BF1A0A /* XMProgressHUD.m in Sources */,
 				F26AE91620A075BB00BF1A0A /* main.m in Sources */,
 				F26AE90820A075B900BF1A0A /* AppDelegate.m in Sources */,
-				F26AE92120A0760700BF1A0A /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +364,7 @@
 		};
 		F26AE91A20A075BB00BF1A0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADC2BCC62E8B227944A62E28 /* Pods-XMProgressHUD-master.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -322,6 +382,7 @@
 		};
 		F26AE91B20A075BB00BF1A0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 347FA3CEE4B3A407B060379F /* Pods-XMProgressHUD-master.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
